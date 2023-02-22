@@ -13,8 +13,7 @@
   <packaging>pom</packaging>
 
   <name>excel-op-learn</name>
-  <!-- FIXME change it to the project's website -->
-  <url>http://www.example.com</url>
+  <description>关于Java操作excel的练习</description>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -52,15 +51,6 @@
         <scope>test</scope>
       </dependency>
 
-      <!-- springboot相关 -->
-      <dependency>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-dependencies</artifactId>
-        <version>${spring.boot.dependencies.version}</version>
-        <type>pom</type>
-        <scope>import</scope>
-      </dependency>
-
       <!-- 通用工具 -->
       <dependency>
         <groupId>org.apache.commons</groupId>
@@ -69,7 +59,7 @@
       </dependency>
 
       <!-- 项目相关 -->
-<!--      <dependency>
+      <dependency>
         <groupId>org.apache.poi</groupId>
         <artifactId>poi</artifactId>
         <version>${apache.poi.version}</version>
@@ -78,7 +68,7 @@
         <groupId>org.apache.poi</groupId>
         <artifactId>poi-ooxml</artifactId>
         <version>${apache.poi.version}</version>
-      </dependency>-->
+      </dependency>
       <dependency>
         <groupId>mysql</groupId>
         <artifactId>mysql-connector-java</artifactId>

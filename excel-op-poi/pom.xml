@@ -13,16 +13,12 @@
   <version>1.0-SNAPSHOT</version>
 
   <name>excel-op-poi</name>
+  <description>使用poi包操作excel</description>
 
   <properties>
   </properties>
 
   <dependencies>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-<!--      <scope>test</scope>-->
-    </dependency>
     <dependency>
       <groupId>org.apache.poi</groupId>
       <artifactId>poi</artifactId>
